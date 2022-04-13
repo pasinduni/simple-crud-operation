@@ -1,0 +1,70 @@
+body{
+    background-image: url('../img/bck.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.container{
+    margin-top: 20px;
+    width: 50%;
+}
+.w-50{
+    transition: none;
+    margin: 0 auto;
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+.form-control{
+    margin-bottom: 20px;
+    font-weight: 535;
+    font-size: 24px;
+    height: 70%;
+    transition: none;
+}
+.btn{
+    border-radius: 20px !important;
+}
+.btn-primary-submit{
+    color: #ffffff;
+    background-color: #2e14a1;
+    border-radius: 40px;
+    border-width: 0ch;
+    width: 11%;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+}
+.btn-primary-submit:hover{
+    background-color: #2717b8;
+    color: #ffffff;
+}
+.btn-primary-reset{
+    color: #ffffff;
+    background-color: #1469a1;
+    border-radius: 25px;
+    border-width: 0ch;
+    width: 11%;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.btn-primary-reset:hover{
+    background-color: #2717b8;
+    color: #ffffff;
+}

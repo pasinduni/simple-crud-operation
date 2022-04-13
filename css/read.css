@@ -1,0 +1,72 @@
+body{
+    background-image: url('../img/bck.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.btn-primary{
+    color: #ffffff;
+    background-color: #c419ad;
+    border-radius: 35px;
+    border-width: 0ch;
+    width: 11%;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px 0px 15px 0px;
+}
+.btn-primary:hover{
+    background-color: #ca23b4;
+    color: #ffffff;
+}
+.btn-primary a{
+    text-decoration: none;
+    color: #ffffff;
+}
+tr ,th{
+    border-color: #a3a2a2c2;
+    border-radius: 1px;
+    text-align: center;
+}
+td{
+    font-size: 18px;
+    font-weight: 500;
+}
+thead{
+    background-color: #2e4d72;
+    color: #ffffff;
+}
+tbody{
+    background-color: #ffffff;
+}
+.btn-success{
+    background-color: #2ca713;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 2px;
+    width: 37%;
+}
+.btn-danger{
+    background-color: #dd1d1d ;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 2px;
+    width: 37%;
+}

@@ -2,7 +2,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "hotelmanagement";
+    $dbname = "Inv-db";
 
     //Create connection
   $conn = new mysqli($servername,$username,$password, $dbname );

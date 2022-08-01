@@ -41,9 +41,34 @@ include "config.php";
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-    	<link rel="stylesheet" type="text/css"  href="css/add.css">
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    	<title>Add Supplier Details</title>
+    	<title>Update Supplier Details</title>
+		<style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+            font-size: 4rem;
+            font-weight: 500;
+        }
+        .container{
+            margin-top: 20px;
+            width: 50%;
+        }
+        .form-control{
+            margin-bottom: 20px;
+            font-weight: 535;
+            font-size: 16px;
+            height: 60%;
+            transition: none;
+        }
+    </style>
 	</head>
 	<body>
 		<h1>Update Details</h1>
@@ -60,7 +85,8 @@ include "config.php";
 					<input type="email" class="form-control" placeholder="Enter Email" name="email" value="<?php echo $email; ?>" required></div>
 				<div class="w-50">
 					<input type="item" class="form-control" placeholder="Enter Item Provided" name="item" value="<?php echo $item; ?>" required></div>
-					<input type="submit" class="btn btn-primary-submit" value="Update" name="update">
+
+					<input type="submit" class="btn btn-primary" value="Update" name="update">
 			</div>
 			</form>
 	</body>

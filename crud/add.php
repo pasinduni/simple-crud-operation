@@ -24,12 +24,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css"  href="css/add.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <title>Add Supplier Details</title>
-    <h1>Add Details</h1>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+            font-size: 4rem;
+            font-weight: 500;
+        }
+        .container{
+            margin-top: 20px;
+            width: 50%;
+        }
+        .form-control{
+            margin-bottom: 20px;
+            font-weight: 535;
+            font-size: 16px;
+            height: 60%;
+            transition: none;
+        }
+    </style>
 </head>
 <body>
+    <h1>Add Details</h1>
     <form action="" method="POST">
        <div class="container">
             <div class="w-50">
@@ -43,8 +68,8 @@
             <div class="w-50">
             <input type="text" class="form-control" placeholder="Enter Item Provided" name="item" required></div>
 
-                <input type="submit" class="btn btn-primary-submit"  name="submit" value="Add">
-                <input type="reset" class="btn btn-primary-reset"  name="reset" value="Reset">
+                <input type="submit" class="btn btn-primary"  name="submit" value="Add">
+                <input type="reset" class="btn btn-primary"  name="reset" value="Reset">
         </div>
     </form>
 </body>

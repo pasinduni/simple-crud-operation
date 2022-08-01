@@ -11,9 +11,39 @@ include "config.php";
 <!DOCTYPE html>
 <html>
 <head>
-    <title>View Page</title>
+    <title>View Supplier</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"  href="css/read.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+            font-size: 4rem;
+            font-weight: 500;
+        }
+        .btn-primary{
+            margin: 10px 0px 25px 0px;
+        }
+        .btn-primary a{
+            width: 10%;
+            color: #ffff;
+            font-size: 22px;
+            font-weight: 500;
+            padding: 10px;
+            text-decoration: none;
+            margin: 10px 0px 20px 0px;
+        }
+        tr{
+            font-size: 18px;
+            margin-top: 15px;
+        }
+    </style>
 </head>
     <body>
         <div class="container">
